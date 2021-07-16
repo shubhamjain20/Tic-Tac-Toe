@@ -1,0 +1,45 @@
+*{
+    margin:0px; 
+    padding:0px;
+}
+
+.mainContainer{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.boxes{
+    display: grid;
+    border:1px solid black;
+    text-align: center;
+    align-items: center;
+    font-size: 2.0rem;
+    font-weight: bolder;
+}
+
+.controls{
+    width:300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.controls button{
+    margin:20px;
+    padding:20px;
+}
+
+.winningSection{
+    text-align: center;
+    font-size: 2rem;
+}
+
+header{
+    display: grid;
+    justify-items: center;
+    
+}
